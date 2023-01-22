@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@color/background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/content_edit_background"
+        android:backgroundTint="@color/content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="150dp"
+            android:orientation="vertical"
+            android:paddingTop="15dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Movie Title"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ptsans_bold"
+                android:layout_marginBottom="6dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Detail..."
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:fontFamily="@font/ptsans_regular"
+                android:textColor="@color/grey"/>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/poster"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

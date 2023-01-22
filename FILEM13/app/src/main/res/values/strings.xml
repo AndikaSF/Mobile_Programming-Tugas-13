@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FILEM 1.3</string>
+    <string name="app_title_movie">MOVIE</string>
+    <string name="app_title_tvshow">TV SHOW</string>
+    <string name="app_title_profile">PROFILE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="image_highlight">Image Highlight</string>
+    <string name="lb_description">Description</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="favorite">Favorite</string>
+    <string name="empty_state_title_no_favorite_item">No favorites yet</string>
+    <string name="empty_state_desc_no_favorite_item_movie">You don\'t have a list of favorite movies</string>
+    <string name="empty_state_desc_no_favorite_item_tvshow">You don\'t have a list of favorite tv show</string>
+    <string name="app_title">MOVIE CATALOG</string>
+    <string name="default_desc">No story description</string>
+    <string name="menu_az">A - Z</string>
+    <string name="menu_za">Z - A</string>
+    <string name="menu_random">Random</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="data">Andika Syahrul Firdan\n32602000014</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
